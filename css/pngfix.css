@@ -1,0 +1,13 @@
+@charset "windows-1251";
+/* CSS Document */
+.content{
+	background: none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/dash.png', sizingMethod='scale');
+	width: 623px;
+	font-size: 16px;
+	font-family: "Trebuchet MS";
+	position: relative;
+	z-index: 1;
+}
+*html .topmenu li {border: expression( (this===this.parentNode.childNodes[0]) ? 'none' : 'auto');}
+.one UL LI, .two UL LI{padding-left: expression( (this===this.parentNode.childNodes[0]) ? '0px' : 'auto');}
