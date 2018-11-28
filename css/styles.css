@@ -1,0 +1,589 @@
+@charset "utf-8";
+/* CSS Document */
+HTML, BODY {
+    height: 100%;
+}
+BODY {
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    color: #ffffff;
+	background-color: #353535;	
+	background-image: url(../images/girl.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+	/*background-attachment: fixed;*/
+}
+A {
+    cursor: pointer;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    color: #e2e2e2;
+    outline: none;
+}
+A:hover {
+    text-decoration: none;
+}
+OL LI {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+H1 {
+    font-size: 36px;
+    font-family: "Trebuchet MS";
+    font-style: italic;
+    color: #2D8BC6;
+    font-weight: normal;
+}
+H2 {
+    font-size: 30px;
+    font-family: "Trebuchet MS";
+    font-style: italic;
+    color: #2D8BC6;
+    font-weight: normal;
+}
+H3 {
+    font-family: "Trebuchet MS";
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+H4 {
+    font-size: 16px;
+    font-family: "Trebuchet MS";
+    color: #fff;
+    font-weight: normal;
+	margin-bottom: 15px;
+}
+.both {
+    clear: both;
+	font-size: 0;
+	height: 0px;
+}* HTML .container {
+    _height: 100%;
+}
+.container{
+    min-height: 100%;
+    min-width: 950px;
+    margin-bottom: -72px;
+	background-image: url(../images/foot-grad.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	
+}
+.container_pos{
+	width: 950px;
+	margin: auto;
+	min-height: 960px;
+	_height: auto!important;
+	_height: 960px;
+	/*background: url(../images/headerNY.png) no-repeat;*/	
+}
+.header{
+	padding-top: 80px;
+	overflow: hidden;
+}
+.header .header_l{
+	background-image: url(../images/topmenu-l.gif);
+	background-repeat: no-repeat;
+	margin-bottom: 5px;
+}
+.header .header_r{
+	background-image: url(../images/topmenu-r.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding: 0 6px;
+}
+.header .header_bg{
+	background-color: #000000;
+	border-top: 1px solid #5f5f5f;
+	border-bottom: 1px solid #5f5f5f;
+	height: 27px;
+	padding: 3px 15px 0;
+}
+.header .lng{
+	float: right;
+	color: #fff;
+	font-size: 13px;
+	margin-right: 20px;
+	font-family: Tahoma;
+}
+.logo{
+	float: left;
+}
+/*mike*/
+.topmenu{
+	float: right;
+	padding-top: 5px;
+}
+.topmenu LI{
+	display: inline;
+	float: left;
+	font-size: 11px;
+	color: #e2e2e2;
+	padding: 0 7px;
+	border-left: 1px solid #444444;
+	font-family: Tahoma;
+	text-transform: uppercase;
+}
+.topmenu LI:first-child{
+	border: none;
+}
+.topmenu LI SPAN{
+	color: #ff910d;
+	text-transform: uppercase;
+}
+.topmenu LI A{
+	color: #e2e2e2;
+	font-size: 11px;
+	text-decoration: none;
+	font-family: Tahoma;
+	text-transform: uppercase;
+}
+.onecolumn{
+	overflow:hidden;
+	padding-top:20px;
+	position:absolute;
+	top:125px;
+	width:950px;
+	z-index: 0;	
+}
+.zblock{
+	background-color: #000;
+	background-image: url(../images/lftmenu-grad.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	border-top: 1px solid #595959;
+	border-bottom: 1px solid #595959;
+	border-left: 1px solid #616161;
+	border-right: 1px solid #616161;
+	padding: 1px 1px 1px 0;
+}
+.zblock_hold{
+	border-top: 1px solid #272727;
+	border-bottom: 1px solid #272727;
+	padding: 23px 0 35px;
+}
+.adres{
+	padding: 10px 0 0 37px;
+	color: #888888;
+	font-size: 16px;
+}
+.adres A{
+	color: #888;
+	font-size: 16px;
+}
+.adres .title_adr{
+	font-size: 18px;
+	font-weight: normal;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.leftmenu .title, .leftmenu .title A{
+	color: #ffa800;
+	font-size: 18px;
+	font-family: "Trebuchet MS";
+	padding-left: 37px;
+	text-transform: uppercase;
+}
+.leftmenu .title A{
+	padding-left: 0px;
+}
+.leftmenu UL{
+	width: 300px;
+	overflow: hidden;
+	padding-top: 18px;
+}
+.leftmenu UL LI{
+	margin-bottom: 12px;
+	font-size: 18px;
+	font-family: "Trebuchet MS";
+	color: #888888;
+	padding-left: 54px;
+	line-height:1;
+}
+.leftmenu UL LI.active{
+	background-image: url(../images/lftmenu-act.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #ff910d;
+	height: 20px;
+	color: #000;
+}
+.leftmenu UL LI A{
+	font-size: 18px;
+	font-family: "Trebuchet MS";
+	color: #888888;
+	text-decoration: none;
+	line-height:1;
+}
+.content_pos{
+	/*float:right;
+	margin-top:-200px;*/
+	padding-left:319px;
+	padding-top: 39px;
+}
+.content_fix{
+	
+}
+.content{
+	background-image: url(../images/dash.png);
+	background-repeat: repeat-y;
+	width: 623px;
+	font-size: 16px;
+	font-family: "Trebuchet MS";
+	color: #b1b1b1;
+	line-height: 1.2;
+	position: relative;
+	z-index: 1;
+}
+.content .title{
+	background-image: url(../images/content-title.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 24px;
+	padding-left: 81px;
+	color: #000;
+}
+.content .title A{
+	color: #000;
+}
+.content .content_holder{
+	padding: 0px 9px 13px;
+	background-image: url(../images/down.jpg);
+	background-repeat: no-repeat;
+	background-position: -1px bottom;
+}
+.content  .content_txt{
+	padding: 50px 25px 40px 70px;
+	background-image: url(../images/cont-grad.jpg);
+	background-repeat: repeat-x;
+	text-align: justify;
+	position: relative;
+	z-index: 2;
+	min-height: 400px;
+	_height: auto!important;
+	_height: 400px;
+}
+#content_pad_small{
+	padding: 15px 25px 40px 35px;
+}
+.content I, .content EM{
+	font-weight: bold;
+	color: #888888;
+	font-style: italic;
+}
+.content STRONG{
+	font-weight: bold;
+	color: #fff;
+}
+.content P{
+	margin-bottom: 12px;
+}
+.content UL{
+	margin-left: -22px;
+}
+.content A{
+	color: #ff910d;
+	font-size: 16px;
+}
+.content A:visited, .content A:visited SPAN{
+	color: #7e7e7d;
+}
+.content UL LI{
+	background-image: url(../images/mark.jpg);
+	background-repeat: no-repeat;
+	background-position: left 9px;
+	padding-left: 22px;
+	margin-bottom: 25px;
+	color: #fff;
+}
+.downpage{
+	border-top: 1px solid #343434;
+	height: 22px;
+	background-color: #000000;
+}
+.downpage .navig{
+	float: right;
+	padding: 5px 5px 0 0;
+}
+.downpage .navig LI{
+	background-image: none;
+	color: #000;
+	font-size: 10px;
+	display: inline;
+	line-height: 1;
+	float: left;
+	padding: 0 3px 0 0;
+}
+.downpage .navig LI A, .downpage .navig LI SPAN{
+	color: #000;
+	font-size: 10px;
+	text-decoration: none;
+	line-height: 1;
+	display: block;
+	background-color: #804907;
+	padding: 3px;
+}
+.downpage .navig LI SPAN{
+	background-color: #ff910d;
+}
+.one, .two{
+	margin-left: -50px;
+	overflow: hidden;
+	margin-top: 30px;
+}
+.one .cifra, .two .cifra{
+	float: left;
+	width: 50px;
+	height: 70px;
+}
+.prod{
+	padding-left: 50px;
+}
+.one UL, .two UL{
+	margin: 0;
+	padding-top: 18px;
+}
+.one UL LI, .two UL LI{
+	background: none;
+	display: inline;
+	padding: 0;
+	float: left;
+	text-align: center;
+	padding-left: 14px;
+	width: 117px;
+	height: 195px;
+	z-index: 1;
+	position: relative;
+}
+.one UL LI:first-child, .two UL LI:first-child{
+	padding-left: 0;
+}
+.one UL LI .hgt, .two UL LI .hgt{
+	height: 117px;
+}
+.one UL LI A, .two UL LI A, .one UL LI SPAN, .two UL LI SPAN, .one UL LI IMG, .two UL LI IMG{
+	display: block;
+	font-size: 12px;
+	color: #fff;
+}
+.one UL LI IMG, .two UL LI IMG{
+	width: 104px;
+	height: 147px;
+	margin-bottom: 10px;
+}
+.block{
+	padding: 20px 0 30px;
+	font-size: 13px;
+}
+.block IMG{
+	margin: 0 20px 10px 0;
+}
+.block .zag P, .block .zag SPAN{
+	font-size: 17px;
+	color: #fff;
+	margin-bottom: 0;
+}
+.block .zag, .block .zag A{
+	font-size: 17px;
+	color: #888888;
+}
+.block .zag {
+	margin-bottom: 20px;
+}
+.block .descr{
+	font-size: 16px;
+	padding-top: 25px;
+	border-top: 1px solid #808080;
+}
+.numeric{
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+.numeric LI{
+	list-style-position: outside;
+	margin-bottom: 20px;
+}
+.numeric P{
+	color: #888888;
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+.numeric A{
+	color: #888888;
+	font-size: 16px;
+	font-weight: normal;
+}
+.numeric A:hover{
+	text-decoration: none;
+}
+.numeric A SPAN{
+	color: #fff;
+	font-size: 16px;
+	font-weight: normal;
+}
+.content OL{
+	margin-left: -22px;
+}
+.content OL UL{
+	margin-left: 0!important;
+	padding-left: 22px;
+}
+.content OL UL LI{
+	list-style-type: none!important;
+	margin-bottom: 10px;
+}
+.contacts{
+	margin-bottom: 50px;
+}
+.contacts .maps{
+	padding-top: 20px;
+}
+.contacts IFRAME, .contacts IMG{
+	width: 480px;
+	height: 350px;
+	border: 2px solid #888888;
+}
+.contacts LI A{
+	text-decoration: none;
+	border-bottom: 1px dashed #888888;
+}
+.contacts LI A:hover{
+	border-bottom: none;
+}
+TABLE.salons{
+	width: 100%;
+	font-size: 16px;
+	color: #fff;
+}
+TABLE.salons A{
+	color: #fff;
+}
+TABLE.salons TD{
+	padding: 3px 0;
+	line-height: 1;
+}
+TABLE.salons TR{
+	background-color: #1c1c1c;
+}
+TABLE.salons .numb{
+	padding-left: 12px;
+	width: 36px;
+	color: #888888;
+}
+TABLE.salons .count{
+	width: 23px;
+	text-align: center;
+	border-bottom: 1px solid #3a3a3a;
+}
+TABLE.salons .count{
+	background-color: #000;
+	color: #ff910d;
+}
+TABLE.salons .hold{
+	background: none;
+}
+TABLE.salons .hold TD{
+	background: none;
+	height: 7px;
+	font-size: 0;
+	padding: 0;
+}
+#content_pad_small #m_smi{
+	padding-left: 18px;
+	margin: 0;
+}
+#content_pad_small #m_smi LI{
+	display: inline;
+	background: none;
+	font-size: 18px;
+	color: #ffa800;
+}
+#m_smi LI A{
+	color: #888888;
+	font-size: 18px;
+}
+#content_pad_small #smi{
+	margin-left: 0;
+	padding-top: 25px;
+	font-size: 17px;
+}
+#content_pad_small #smi LI{
+	background: none;
+	float: left;
+	width: 520px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #808080;
+	margin-bottom: 20px;
+}
+#content_pad_small #smi IMG{
+	float: left;
+	margin-right: 20px;
+	width: 155px;
+}
+#content_pad_small #smi A, #content_pad_small #smi .zag{
+	color: #888888;
+	font-size: 17px;
+}
+#content_pad_small #smi P{
+	margin-bottom: 0;
+}
+#content_pad_small #smi .descr{
+	font-size: 12px;
+	text-align: left;
+	padding-top: 10px;
+}
+/*>>>>>>>FOOTER<<<<<<*/
+.clear{
+	clear: both;
+	height: 179px;
+}
+.footer{
+	height: 71px;
+	background-color: #000;
+	border-top: 1px solid #1a1a1a;
+	font-family: Tahoma;
+}
+.footer .foot_pos{
+	width: 950px;
+	margin: auto;
+	padding: 27px 20px 0 0;
+	overflow: hidden;
+}
+.footer .who{
+	float: left;
+	width: 360px;
+	font-size: 12px;
+}
+.footer .who IMG{
+	float: left;
+	margin-top: 0px;
+}
+.footer .who A, .footer .who SPAN{
+	float: left;
+	margin-top: 5px;
+	font-size: 12px;
+}
+.footer .who SPAN{
+	padding: 0 5px;
+}
+.foot_menu{
+	float: right;
+}
+.foot_menu LI{
+	float: left;
+	display: inline;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #a9a9a9;
+	padding-left: 70px;
+}
+.foot_menu LI A{
+	font-family: Tahoma;
+	color: #4d4848;
+	font-size: 12px;
+	text-transform: uppercase;
+}
