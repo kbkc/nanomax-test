@@ -7,7 +7,7 @@
 !core/
 !_SASS/
 !_JS/
-
+!css/
 # ignore cache and config
 assets/cache/*
 assets/cache_/*
